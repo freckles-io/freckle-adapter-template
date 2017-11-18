@@ -1,3 +1,6 @@
+- name: debug global folder vars
+  debug: var=freckles_global_vars
+
 - name: debug freckle path
   debug: var=freckle_path
 
