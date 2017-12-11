@@ -3,6 +3,9 @@
 doc:
   help: adapter-stub, please fill in the fields as approriate
   short_help: adapter-stub, please fill in the fields as approriate
+# role-dependencies:
+#   - <role_author>.<role_name>
+#   - ...
 # args:
 #   test_arg:
 #     arg_name: test-arg
