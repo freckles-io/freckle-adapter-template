@@ -13,4 +13,10 @@
 - name: "debug 'freckle_global_folder_vars'"
   debug: var=freckle_global_folder_vars
 
+# in case your adapter doesn't support more than one 'freckle' folders,
+# you can uncomment this:
 
+# - name: "[check whether there is more than one freckle folders]"
+#   fail:
+#     msg: "More than one freckle folder detected, this is not supported for this adapter"
+#   when: freckles_profile_folders | length > 1
