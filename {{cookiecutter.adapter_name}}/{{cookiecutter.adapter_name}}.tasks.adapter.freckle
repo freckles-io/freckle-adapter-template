@@ -1,11 +1,17 @@
 - name: debug freckle path
   debug: var=freckle_path
 
-- name: debug freckle_folder_vars
-  debug: var=freckle_folder_vars
+- name: debug freckle folder name
+  debug: var=freckle_folder_name
+
+- name: debug freckle owner
+  debug: var=freckle_owner
 
 - name: debug freckle vars (raw)
   debug: var=freckle_vars_raw
+
+- name: debug freckle_folder_vars
+  debug: var=freckle_folder_vars
 
 - name: debug freckle vars
   debug: var=freckle_vars
